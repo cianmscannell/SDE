@@ -4,3 +4,5 @@ An iPython notebook to numerically solve stochastic differential equations (SDEs
 This numerically solves a SDE written in Ito form as dX = mu*X*dt + sigma*X*dB_t - this is known as a geometric brownian motion. This has particular use in mathematical finance for simulating stock prices which follow a Black-Scholes model.
 
 However, one could easily adapt this to any SDE of their choice by simpily changing the functions a(x,t) and b(x,t).
+
+UPDATE: Added a more advanced solver for coupled SDEs, with a corresponding example.
